@@ -1,0 +1,67 @@
+:root[data-theme='darkmode']{
+    background-color: #1e1f21;
+}
+
+:root[data-theme='darkmode'] header,
+:root[data-theme='darkmode'] .hidden_menu,
+:root[data-theme='darkmode'] .hidden_sur_box{
+    background-color: #292a2d;
+    color: #eee;
+}
+
+:root[data-theme='darkmode'] .ham::before,
+:root[data-theme='darkmode'] .ham::after,
+:root[data-theme='darkmode'] .close_btn::before,
+:root[data-theme='darkmode'] .close_btn::after,
+:root[data-theme='darkmode'] .h_line{
+    background-color: #eee;
+}
+
+:root[data-theme='darkmode'] header a,
+:root[data-theme='darkmode'] footer a,
+:root[data-theme='darkmode'] .sec_title,
+:root[data-theme='darkmode'] .section_2 a,
+:root[data-theme='darkmode'] .hidden_menu a{
+    color: #eee !important;
+}
+
+:root[data-theme='darkmode'] .sec_sub,
+:root[data-theme='darkmode'] .news_category,
+:root[data-theme='darkmode'] .news_text,
+:root[data-theme='darkmode'] .sec_5_title,
+:root[data-theme='darkmode'] .sec_5_con{
+    color: #ddd !important;
+}
+
+:root[data-theme='darkmode'] .prev_btn::after,
+:root[data-theme='darkmode'] .prev_btn::before,
+:root[data-theme='darkmode'] .next_btn::after,
+:root[data-theme='darkmode'] .next_btn::before,
+:root[data-theme='darkmode'] .sec_5_btn{
+    background-color: #ddd !important;
+}
+
+:root[data-theme='darkmode'] footer{
+    background-color: #292a2d;
+    color: #ddd;
+}
+
+:root[data-theme='darkmode'] .web_box{
+    background-color: #292a2d;
+}
+
+:root[data-theme='darkmode'] .web_box,
+:root[data-theme='darkmode'] .fami_btn,
+:root[data-theme='darkmode'] .prev_btn,
+:root[data-theme='darkmode'] .next_btn{
+    border: 3px solid #ddd;
+}
+
+:root[data-theme='darkmode'] .sec_5_btn a{
+    color: #393939;
+}
+
+:root[data-theme='darkmode'] .more_text{
+    border-color: #eee;
+    color: #eee
+}
