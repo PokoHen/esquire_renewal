@@ -226,22 +226,21 @@ $(document).ready(function(){
             }
             sec_1_top = $(window).scrollTop();
             $(window).resize(function(){
-                wheel_height = wh;
                 ww = $(window).width();
             });
             /* 마우스 휠을 아래로 내렸을 경우 */
             if(delta < 0 && !event_scroll && scrT >= 0 && sec_1_top < 100 && ww > 900){
                 event_scroll = true;
                 $('html, body').stop().animate({
-                    scrollTop: wheel_height, 
+                    scrollTop: $('.sec_1_sur').offset().top, 
                 }, 500, function(){
                     event_scroll = false;
                 });
             }
-            if(delta > 0 && !event_scroll && sec_1_top >= (wheel_height-1) && sec_1_top < wheel_height+1 && ww > 900){
+            if(delta > 0 && !event_scroll && sec_1_top >= (wheel_height-100) && sec_1_top < wheel_height+100 && ww > 900){
                 event_scroll = true;
                 $('html, body').stop().animate({
-                    scrollTop: 0, 
+                    scrollTop: $('.sec_1_inner').offset().top, 
                 }, 500, function(){
                     event_scroll = false;
                 });
