@@ -1,11 +1,18 @@
-# esquire_renewal
+# 프로젝트 제목
+  - esquire_renewal
 
 # 작업기간
   - 21.02.22 ~ 21.03.09
 
+# 개발 인원
+  - 1명(개인 프로젝트)
+
 # 개발 언어
   - HTML5 / CSS3
   - Javascript (Jquery)
+  
+# 개발 툴
+  - brackets
   
 # 디자인 툴
   - PhotoShop
